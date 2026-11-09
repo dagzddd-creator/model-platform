@@ -31,7 +31,7 @@ const status = ref('loading')     // loading | ready | error
 const progress = ref(0)
 const errorMsg = ref('')
 
-/** ⭐ shallowRef：只追踪 .value 的替换，不深度代理内部对象
+/** shallowRef：只追踪 .value 的替换，不深度代理内部对象
  *  markRaw：明确告诉 Vue「不要代理这个对象」 */
 const ctx = shallowRef(null)
 
@@ -235,7 +235,7 @@ function init() {
   }
   animate()
 
-  // ⭐ 用 ResizeObserver 监听「容器」尺寸，而不是 window
+  // 用 ResizeObserver 监听「容器」尺寸，而不是 window
   const ro = new ResizeObserver(() => {
     const w = host.clientWidth
     const h = host.clientHeight
@@ -246,7 +246,7 @@ function init() {
   })
   ro.observe(host)
 
-  // ⭐ 点击拾取（Raycaster）
+  // 点击拾取（Raycaster）
   const raycaster = new THREE.Raycaster()
   const pointer = new THREE.Vector2()
 
