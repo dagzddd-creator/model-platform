@@ -1,0 +1,71 @@
+{
+  "categories": ["全部", "办公", "住宅", "商业", "工业"],
+  "models": [
+    {
+      "id": "office-a",
+      "name": "办公塔楼 A",
+      "category": "办公",
+      "floors": 8,
+      "height": 24,
+      "area": 4800,
+      "source": "程序化生成",
+      "url": "",
+      "desc": "标准办公塔楼。标准层高 3.0m，屋顶设水箱、空调机组与楼梯间，外围设女儿墙。"
+    },
+    {
+      "id": "office-b",
+      "name": "办公塔楼 B",
+      "category": "办公",
+      "floors": 12,
+      "height": 36,
+      "area": 7200,
+      "source": "程序化生成",
+      "url": "",
+      "desc": "高层办公塔楼，进深较大，立面窗户按 4 列均匀分格。"
+    },
+    {
+      "id": "residence-a",
+      "name": "住宅楼 A",
+      "category": "住宅",
+      "floors": 6,
+      "height": 18,
+      "area": 3200,
+      "source": "程序化生成",
+      "url": "",
+      "desc": "多层住宅，层高 3.0m，立面按单元分格。"
+    },
+    {
+      "id": "residence-b",
+      "name": "住宅楼 B",
+      "category": "住宅",
+      "floors": 18,
+      "height": 54,
+      "area": 11000,
+      "source": "程序化生成",
+      "url": "",
+      "desc": "高层住宅，标准层重复度高，适合测试模型加载性能。"
+    },
+    {
+      "id": "commercial-a",
+      "name": "商业裙房 A",
+      "category": "商业",
+      "floors": 3,
+      "height": 15,
+      "area": 5600,
+      "source": "程序化生成",
+      "url": "",
+      "desc": "底层商业，层高较大，立面以幕墙分格表达。"
+    },
+    {
+      "id": "industrial-a",
+      "name": "厂房 A",
+      "category": "工业",
+      "floors": 2,
+      "height": 12,
+      "area": 8800,
+      "source": "程序化生成",
+      "url": "",
+      "desc": "单层高大厂房，屋面设通风设备。"
+    }
+  ]
+}
