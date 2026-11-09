@@ -1,8 +1,8 @@
 <script setup>
 /**
- * ⭐ 这是整个项目最核心、也最难的文件：把 Three.js 封装成一个 Vue 组件。
+ * 把 Three.js 场景封装成 Vue 组件。
  *
- * 三个真实的坑（也是面试最能讲的点）：
+ * 这里有三个容易踩的坑：
  *   1. Vue 的响应式代理会和 Three.js 的对象引用机制冲突
  *      → 用 markRaw / shallowRef 存放 Three.js 对象
  *   2. 组件卸载不会自动释放 WebGL 资源（显存泄漏）
